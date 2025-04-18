@@ -30,3 +30,16 @@ let state = null
 console.log(typeof state)
 
 
+//Mainly on the basis of memory space and how they are accessed, data types are sorted into 2 categories
+
+//Primitive datatype
+//they are call by value datatype 7 types: String, Number, Boolean, null, undefined, Symbol, BigInt
+
+const sy1 = Symbol("Abc");
+console.log("-----------------------------------------------------------------------------------------");
+
+console.log(sy1);
+console.log(typeof(sy1));
+
+//Non-Primitive or Reference data types
+//Arrays, Objects, Functions
