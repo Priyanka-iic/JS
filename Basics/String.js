@@ -29,14 +29,46 @@ console.log(val2); */
 
 // ALL FUNCTIONS & METHODS
 const test = new String('John Doe')
-const testTwo = "Jane Doe"
 
-console.log(testTwo);
+const Func = function(){
 
-console.log(test);
+let testTwo = "Jane Doe";
+return testTwo;
 
+}
+
+let x = Func();
+/*
+console.log(x);
 console.log(test.at());
 console.log(test.charAt(5));
+console.log(test.charCodeAt(5));
+console.log(test.codePointAt(5));
+console.log(x.concat(" ","Wants ","To ","Quit." ));
+console.log(x.constructor);
+console.log(test.constructor);
+
+
+const str = "eeeeee eeeee eeeee";
+console.log(str.indexOf('e', 6));
+console.log(str.indexOf('f'));
+console.log(str.lastIndexOf('e'));
+*/
+//compare
+
+const cars = [
+    "Mercedes",
+    "BMW",
+    "Porshe",
+    "Tata",
+    "Aston Martin",
+    "Audi"
+];
+
+
+
+
+
 
 
 
